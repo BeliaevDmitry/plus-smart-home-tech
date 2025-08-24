@@ -9,6 +9,7 @@ import lombok.experimental.FieldDefaults;
 import lombok.extern.slf4j.Slf4j;
 import net.devh.boot.grpc.server.service.GrpcService;
 import ru.practicum.kafka.telemetry.handler.hub.GrpcHubEventHandler;
+import ru.practicum.kafka.telemetry.handler.sensor.GrpcSensorEventHandler;
 import ru.yandex.practicum.grpc.telemetry.collector.CollectorControllerGrpc;
 import ru.yandex.practicum.grpc.telemetry.event.HubEventProto;
 import ru.yandex.practicum.grpc.telemetry.event.SensorEventProto;
