@@ -52,7 +52,6 @@ public class CartServiceImpl implements CartService {
         return cartMapper.toDto(cart);
     }
 
-
     @Override
     public ShoppingCartDto addProduct(String username, Map<UUID, Long> products) {
         checkUsername(username);
