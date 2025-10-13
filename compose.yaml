@@ -105,15 +105,3 @@ services:
       timeout: 5s
       interval: 5s
       retries: 10
-
-  analyzer:
-    build: ./telemetry/analyzer
-    container_name: analyzer
-    depends_on:
-    - kafka
-      - db
-    environment:
-      SPRING_PROFILES_ACTIVE: docker
-      SPRING_DATASOURCE_URL: jdbc:postgresql://db:5432/analyzer
-    ports:
-    - "59091:59091"
