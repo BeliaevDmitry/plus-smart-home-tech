@@ -18,5 +18,11 @@
         <module>warehouse</module>
         <module>interaction-api</module>
     </modules>
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot</artifactId>
+        </dependency>
+    </dependencies>
 
 </project>
