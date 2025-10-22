@@ -25,4 +25,4 @@ public interface PaymentMapper {
                     "? orderDto.getProductPrice().multiply(AppConstants.NDS_RATE) : java.math.BigDecimal.ZERO)"
     )
     Payment toPayment(OrderDto orderDto);
-}v
+}
