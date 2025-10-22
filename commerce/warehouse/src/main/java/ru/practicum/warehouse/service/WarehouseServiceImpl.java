@@ -8,7 +8,7 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 import ru.practicum.interaction.api.dto.cart.ShoppingCartDto;
 import ru.practicum.interaction.api.dto.warehouse.AddProductToWarehouseRequestDto;
-import ru.practicum.interaction.api.dto.warehouse.AddressDto;
+import ru.practicum.interaction.api.dto.AddressDto;
 import ru.practicum.interaction.api.dto.warehouse.BookedProductsDto;
 import ru.practicum.interaction.api.dto.warehouse.NewProductInWarehouseRequestDto;
 import ru.practicum.interaction.api.exception.NoSpecifiedProductInWarehouseException;

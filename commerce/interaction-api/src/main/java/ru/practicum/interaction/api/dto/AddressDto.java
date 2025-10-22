@@ -1,4 +1,4 @@
-package ru.practicum.interaction.api.dto.warehouse;
+package ru.practicum.interaction.api.dto;
 
 import lombok.AccessLevel;
 import lombok.AllArgsConstructor;

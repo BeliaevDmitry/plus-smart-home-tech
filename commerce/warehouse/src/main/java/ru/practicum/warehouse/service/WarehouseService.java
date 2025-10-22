@@ -2,7 +2,7 @@ package ru.practicum.warehouse.service;
 
 import ru.practicum.interaction.api.dto.cart.ShoppingCartDto;
 import ru.practicum.interaction.api.dto.warehouse.AddProductToWarehouseRequestDto;
-import ru.practicum.interaction.api.dto.warehouse.AddressDto;
+import ru.practicum.interaction.api.dto.AddressDto;
 import ru.practicum.interaction.api.dto.warehouse.BookedProductsDto;
 import ru.practicum.interaction.api.dto.warehouse.NewProductInWarehouseRequestDto;
 

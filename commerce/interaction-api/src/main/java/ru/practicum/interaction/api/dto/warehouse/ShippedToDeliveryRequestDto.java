@@ -1,6 +1,5 @@
 package ru.practicum.interaction.api.dto.warehouse;
 
-import jakarta.validation.constraints.Min;
 import jakarta.validation.constraints.NotNull;
 import lombok.AccessLevel;
 import lombok.AllArgsConstructor;
@@ -16,11 +15,10 @@ import java.util.UUID;
 @NoArgsConstructor
 @Builder
 @FieldDefaults(level = AccessLevel.PRIVATE)
-public class AddProductToWarehouseRequestDto {
-    @NotNull
-    UUID productId;
+public class ShippedToDeliveryRequestDto {
+    @NotNull(message = "Order ID не может быть пустым")
+    UUID orderId;
 
-    @NotNull(message = "Необходимо указать количество")
-    @Min(value = 1, message = "Значение должно быть не менее 1")
-    Long quantity;
+    @NotNull(message = "Delivery ID не может быть пустым")
+    UUID deliveryId;
 }

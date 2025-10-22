@@ -1,4 +1,4 @@
-package ru.practicum.interaction.api.dto.cart;
+package ru.practicum.interaction.api.dto.warehouse;
 
 import jakarta.validation.constraints.NotEmpty;
 import jakarta.validation.constraints.NotNull;
@@ -18,9 +18,9 @@ import java.util.UUID;
 @NoArgsConstructor
 @Builder
 @FieldDefaults(level = AccessLevel.PRIVATE)
-public class ShoppingCartDto {
+public class AssemblyProductsForOrderRequestDto {
     @NotNull
-    UUID shoppingCartId;
+    UUID orderId;
 
     @NotNull(message = "Список продуктов не может быть null")
     @NotEmpty(message = "Список продуктов не может быть пустым")
